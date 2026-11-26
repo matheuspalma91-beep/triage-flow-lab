@@ -4,7 +4,7 @@ import { sanitizeText } from "../src/sanitizer.mjs";
 
 test("remove email, telefone e identificador de pedido", () => {
   const result = sanitizeText(
-    "Contato pessoa@example.com, (11) 90000-0000, pedido PED-12345.",
+    "Contato pessoa@example.com, (00) 00000-0000, pedido PED-12345.",
   );
   assert.equal(result.sanitized, "Contato [EMAIL], [PHONE], pedido [ORDER_ID].");
   assert.deepEqual(result.redactions, { email: 1, phone: 1, order: 1 });

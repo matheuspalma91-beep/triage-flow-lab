@@ -1,5 +1,5 @@
 {"id":"TKT-001","subject":"Cobrança duplicada","body":"O cartão foi cobrado duas vezes. Meu email é pessoa@example.com e o pedido é PED-10001."}
-{"id":"TKT-002","subject":"Entrega atrasada","body":"O rastreio do ORDER-20002 não muda há cinco dias. Telefone para retorno: (11) 90000-0000."}
+{"id":"TKT-002","subject":"Entrega atrasada","body":"O rastreio do ORDER-20002 não muda há cinco dias. Telefone para retorno: (00) 00000-0000."}
 {"id":"TKT-003","subject":"Recuperar acesso","body":"Não consigo fazer login e o link de senha não chega em conta@example.org."}
 {"id":"TKT-004","subject":"Troca de produto","body":"Recebi o tamanho errado no PED-30003 e preciso trocar."}
 {"id":"TKT-005","subject":"Conta invadida","body":"Minha conta foi invadida e a senha mudou. Contato: security@example.net."}
