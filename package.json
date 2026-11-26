@@ -1,0 +1,21 @@
+{
+  "name": "triage-flow-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Demo local de automação para triagem segura de chamados fictícios.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "demo": "node scripts/run-demo.mjs",
+    "lint": "eslint .",
+    "test": "node --test",
+    "check": "npm run lint && npm test && npm run demo"
+  },
+  "devDependencies": {
+    "eslint": "^10.15.0"
+  }
+}
+

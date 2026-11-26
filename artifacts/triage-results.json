@@ -1,0 +1,128 @@
+{
+  "generated_from": "entirely fictional local data",
+  "model": "multinomial_naive_bayes",
+  "evaluation": {
+    "examples": 12,
+    "correct": 11,
+    "accuracy": 0.9167
+  },
+  "summary": {
+    "routed": 7,
+    "human_review": 3,
+    "skipped": 1,
+    "dead_letter": 1,
+    "redactions": 7
+  },
+  "routed": [
+    {
+      "id": "TKT-001",
+      "sanitized_subject": "Cobrança duplicada",
+      "sanitized_body": "O cartão foi cobrado duas vezes. Meu email é [EMAIL] e o pedido é [ORDER_ID].",
+      "category": "billing",
+      "confidence": 0.5022,
+      "urgency": "high",
+      "route": "human_review",
+      "redactions": {
+        "email": 1,
+        "phone": 0,
+        "order": 1
+      }
+    },
+    {
+      "id": "TKT-002",
+      "sanitized_subject": "Entrega atrasada",
+      "sanitized_body": "O rastreio do [ORDER_ID] não muda há cinco dias. Telefone para retorno: [PHONE].",
+      "category": "delivery",
+      "confidence": 0.8912,
+      "urgency": "medium",
+      "route": "queue:delivery",
+      "redactions": {
+        "email": 0,
+        "phone": 1,
+        "order": 1
+      }
+    },
+    {
+      "id": "TKT-003",
+      "sanitized_subject": "Recuperar acesso",
+      "sanitized_body": "Não consigo fazer login e o link de senha não chega em [EMAIL].",
+      "category": "account",
+      "confidence": 0.9894,
+      "urgency": "low",
+      "route": "queue:account",
+      "redactions": {
+        "email": 1,
+        "phone": 0,
+        "order": 0
+      }
+    },
+    {
+      "id": "TKT-004",
+      "sanitized_subject": "Troca de produto",
+      "sanitized_body": "Recebi o tamanho errado no [ORDER_ID] e preciso trocar.",
+      "category": "product",
+      "confidence": 0.9019,
+      "urgency": "low",
+      "route": "queue:product",
+      "redactions": {
+        "email": 0,
+        "phone": 0,
+        "order": 1
+      }
+    },
+    {
+      "id": "TKT-005",
+      "sanitized_subject": "Conta invadida",
+      "sanitized_body": "Minha conta foi invadida e a senha mudou. Contato: [EMAIL].",
+      "category": "account",
+      "confidence": 0.9945,
+      "urgency": "high",
+      "route": "human_review",
+      "redactions": {
+        "email": 1,
+        "phone": 0,
+        "order": 0
+      }
+    },
+    {
+      "id": "TKT-006",
+      "sanitized_subject": "Dúvida",
+      "sanitized_body": "Gostaria de ajuda com uma informação que não encontrei.",
+      "category": "delivery",
+      "confidence": 0.5415,
+      "urgency": "low",
+      "route": "human_review",
+      "redactions": {
+        "email": 0,
+        "phone": 0,
+        "order": 0
+      }
+    },
+    {
+      "id": "TKT-007",
+      "sanitized_subject": "Produto com defeito",
+      "sanitized_body": "O item não liga desde que chegou.",
+      "category": "product",
+      "confidence": 0.968,
+      "urgency": "medium",
+      "route": "queue:product",
+      "redactions": {
+        "email": 0,
+        "phone": 0,
+        "order": 0
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "id": "TKT-006",
+      "reason": "duplicate_id"
+    }
+  ],
+  "dead_letter": [
+    {
+      "id": 42,
+      "reason": "invalid_schema"
+    }
+  ]
+}

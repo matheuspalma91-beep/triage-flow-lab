@@ -1,0 +1,37 @@
+{"category":"billing","text":"cobrança duplicada no cartão e preciso de estorno"}
+{"category":"billing","text":"pagamento por pix aprovado mas fatura continua aberta"}
+{"category":"billing","text":"boleto pago ainda aparece como pendente"}
+{"category":"billing","text":"valor da fatura veio diferente do pedido"}
+{"category":"billing","text":"quero segunda via do boleto para pagamento"}
+{"category":"billing","text":"cartão foi cobrado duas vezes na mesma compra"}
+{"category":"billing","text":"estorno ainda não apareceu na conta"}
+{"category":"billing","text":"pagamento recusado mas limite foi consumido"}
+{"category":"billing","text":"preciso alterar a forma de pagamento"}
+{"category":"delivery","text":"pedido atrasado e rastreio não atualiza"}
+{"category":"delivery","text":"transportadora marcou entrega mas não recebi"}
+{"category":"delivery","text":"quero corrigir o endereço de entrega"}
+{"category":"delivery","text":"prazo de entrega venceu ontem"}
+{"category":"delivery","text":"pacote voltou para o centro de distribuição"}
+{"category":"delivery","text":"código de rastreamento está inválido"}
+{"category":"delivery","text":"entrega parcial faltou uma caixa"}
+{"category":"delivery","text":"quando meu pedido será enviado"}
+{"category":"delivery","text":"transportadora não encontrou o endereço"}
+{"category":"account","text":"não consigo fazer login na conta"}
+{"category":"account","text":"esqueci minha senha e o email não chega"}
+{"category":"account","text":"cadastro bloqueado depois de várias tentativas"}
+{"category":"account","text":"quero alterar o email da minha conta"}
+{"category":"account","text":"código de verificação expirou"}
+{"category":"account","text":"conta invadida e senha foi alterada"}
+{"category":"account","text":"não consigo concluir meu cadastro"}
+{"category":"account","text":"autenticação em duas etapas não funciona"}
+{"category":"account","text":"preciso excluir minha conta"}
+{"category":"product","text":"produto chegou com defeito e não liga"}
+{"category":"product","text":"tamanho recebido é diferente do comprado"}
+{"category":"product","text":"quero acionar a garantia do produto"}
+{"category":"product","text":"manual de instruções não veio na caixa"}
+{"category":"product","text":"item veio quebrado e preciso trocar"}
+{"category":"product","text":"cor do produto não corresponde à foto"}
+{"category":"product","text":"peça de reposição veio faltando"}
+{"category":"product","text":"como solicitar troca por outro modelo"}
+{"category":"product","text":"produto aqueceu demais durante o uso"}
+
