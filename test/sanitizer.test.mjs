@@ -16,3 +16,9 @@ test("mantém texto sem dados detectáveis", () => {
   assert.deepEqual(result.redactions, { email: 0, phone: 0, order: 0 });
 });
 
+test("não mascara uma sequência numérica curta como telefone", () => {
+  const result = sanitizeText("Referência REF-12345 e versão 2026.11.");
+  assert.equal(result.sanitized, "Referência REF-12345 e versão 2026.11.");
+  assert.deepEqual(result.redactions, { email: 0, phone: 0, order: 0 });
+});
+

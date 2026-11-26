@@ -84,6 +84,7 @@ Logs também vazam dados. O pipeline só persiste a versão sanitizada e a conta
 
 - o dataset é pequeno, sintético e não mede desempenho no mundo real;
 - regex não substitui uma solução completa de detecção de PII;
+- a regra de telefone é conservadora e pode mascarar sequências numéricas de 8 ou 9 dígitos que não sejam telefones;
 - a classificação cobre somente quatro categorias;
 - o pipeline demonstra processamento em lote, não uma fila distribuída;
 - não existe integração com help desk, email ou provedor de IA.
