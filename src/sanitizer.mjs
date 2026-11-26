@@ -1,6 +1,6 @@
 const rules = [
   { label: "email", pattern: /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/giu, replacement: "[EMAIL]" },
-  { label: "phone", pattern: /(?:\+?55\s*)?(?:\(?\d{2}\)?\s*)?9?\d{4}[-\s]?\d{4}/gu, replacement: "[PHONE]" },
+  { label: "phone", pattern: /(?:\+?55\s*)?(?:\(?\d{2}\)?\s*)?\d{4,5}[-\s]?\d{4}/gu, replacement: "[PHONE]" },
   { label: "order", pattern: /\b(?:PED|ORDER)[-_ ]?\d{4,}\b/giu, replacement: "[ORDER_ID]" },
 ];
 
